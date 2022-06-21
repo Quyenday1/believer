@@ -1,0 +1,18 @@
+-- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
+
+shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 9*60 + 25 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+
+shared.scr = [[ [ep] t [ef] t [ed] t [ed] [ts] [ed] t [ed] [tf] [ed] [ts] [ep] [to] [qp] t [qf] t [qd] t [qd] [ts] [Wd] r [Wd] [rf] [Wd] [rs] [Wp] [ro] [ep] t [es] t [epsj] t e t [euf] t e [tf] [e
+d] [ts] [ep] [to] [qp] t [qs] t [qpsj] t q t [WHu] r W r W r
+W r [ep] [tp] [ef] t [ed] [td] [ed] [ts] [ed] [td] [ed] [tf] [ed] [ts] [ep] [to] [qp] t [qf] [tf] [qd] t [qd] [ts] [Wd] r [Wd] [rf] [Wd] [rs] [Wp] [ro] [ep] t [es] t [epsj] t e t
+[euf] t e [tf] [ed] [ts] [ep] [to] [qp] t [qs] t [qpsj] t q
+t [WHu] r W r W r W p [rp] [ep] [tp] e p [tp] [ep] [tp] [ep] p [tp] [ep] [tp] e p [tp] [ep] [tp] [ep] p [tp] [qps] [tps] q [ps] [tps] [qps] [tps] [qps] [ps] [tps] [Wa] a [ra] [Wa] a [ra] [Wa] a [ra] [Wa] a [ra] [ep] [tp] e p [tp] [ep] t [ep] p [tp] [ep] [tp] e p [tp] [ep] t [ep] p [tp] [qps] [tps] q
+[ps] [tps] [qps] t [qps] [ps] [tps] [Wa] [ra] W a [ra] [epsj] t e [tpj] [esl] [tsl] [eak] [tpj] [esl] [tsl] [eak] [tpj] [qpj] t [qsl] t q t q [tsl] [Wak] r [WOH] r W r W r e t e t
+[epsj] t e [tpj] [esl] [tsl] [eak] [tpj] [esl] [tsl] [eak] [tpj] [qpj] t [qsl] t q t q [tsl] [Wak] r [WOH] r W r W r [epsf] t e t e t e [ts] [ed] [ts] [ed] [ts] [ed] [ts] [ed] [ts] [qpsf] t q t [4q] t q [ts] [Wd] [rs] [Wd] [rs] [Wd] [rs] [Wd] r [epsj] t e [tpj] [esl] [tsl] [eak] [tpj] [esl] [tsl] [eak] [tpj] [qpj] t [qsl] t q t q [tsl] [Wak] r [WOH] r W r Wr [ep] t [ef] t [ed] t [ed] [ts] [ed] t [ed] [tf] [ed] [ts] [ep] [to] [qp] t [qf] [tf] [qd] t [qd] [ts] [Wd] [rs] [Wd] [rf] [Wd] [rs] [Wp] [ro] [ep] t [es] t [epsj] t e t [euf] t
+e [tf] [ed] [ts] [ep] [to] [qp] t [qs] t [qpsj] t q t [WHu] r W r W r W p [rp] [ep] [tp] e p [tp] [ep] t [ep] p [tp] [ep] [tp] e p [tp] [ep] t [ep] p [tp] [qps] [tps] q [ps] [tps] [qps] t [qps] [ps] [tps] [Wa] [ra] W a [ra] [Wa] r W p [rp] [es] p [tp] [es] p [tp] [es] s [ts] [es] s [ts] [es] p [tp] [es] p [tp] [es] s [ts] [es] s [ts] [qs] [rta] q t q [ts] [q
+s] t [ra] [WO] [epsj] t e [tpj] [esl] [tsl] [eak] [tpj] [esl]
+[tsl] [eak] [tpj] [qpj] t [qsl] t q t q [tsl] [Wak] r [WOH] r W r W r e t e t [epsj] t e [tpj] [esl] [tsl] [eak] [tpj] [esl] [tsl] [eak] [tpj] [qpj] t [qsl] t q t q [tsl] [Wak] r [WOH] r W r W r [epsf] t e t e t e [ts] [ed] [ts] [ed] [ts] [ed] [ts] [ed] [ts] [qpsf] t q t [4q] t q [ts] [Wd] [rs] [Wd] [rs] [Wd] [rs] [Wd] [epsj] t e [tpj] [esl] [tsl] [eak] [tpj] [esl] [tsl] [eak] [tpj] [qpj] t [qsl] t q t q [tsl] [Wak] r [WOH] r W r W r [ep] t [ef] t [ed] t [ed] [ts] [ed] t [ed] [tf] [ed] [ts] [ep] [to] [qp] t [qf] [tf] [qd] t [qd] [ts] [Wd] r [Wf] [rf] [Wd] [rs] [Wp] [ro] [ep] t [es] t [epsj] t e t [euf] t e [tf] [ed] [ts] [ep] [to] [qp] t [qs] t [qpsj] t q t [WHu] r W r W r W p [rp] [8qes] p p s p p s s s s s s [8qes] p p s p p s s s s s s [9wrs] a s s [0wra] O [epsj] t e [tpj] [esl] [tsl] [eak] [tpj] [esl] [tsl] [eak] [tpj] [qpj] t [qsl] t q t q [tsl] [Wak] r [WOH] r W r W r e t e t [epsj] t e [tpj] [esl] [tsl] [eak] [tpj] [esl] [tsl] [eak] [tpj] [qpj] t [qsl] t q t q [tsl] [Wak] r [WOH] r W r W r [epsf] t e t e t e [ts] [ed] [ts] [ed] [ts] [ed] [ts] [ed] [ts] [qpsf] t q t [4q] t q [ts] [Wd] [rs] [Wd] [rs] [Wd] [rs] [Wd] [epsj] t e [tpj] [esl] [tsl] [eak] [tpj] [esl] [tsl] [eak] [tpj] [qpj] t [qsl] t q t q [tsl] [ak] [OH] ]]
